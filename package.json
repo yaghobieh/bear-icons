@@ -1,0 +1,58 @@
+{
+  "name": "@forgedevstack/bear-icons",
+  "version": "1.0.0",
+  "description": "SVG icon library for Bear UI and ForgeStack. 550+ React icons, no component library required.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/node": "^22.10.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.4.0"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "bear",
+    "forgestack",
+    "ui"
+  ],
+  "author": "John Yaghobieh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaghobieh/bear-icons"
+  },
+  "homepage": "https://bearui.com/icons",
+  "bugs": {
+    "url": "https://github.com/yaghobieh/bear-icons/issues"
+  }
+}

@@ -11,6 +11,7 @@ import * as FileIcons from './icons/file';
 import * as SocialIcons from './icons/social';
 import * as DeviceIcons from './icons/device';
 import * as CommerceIcons from './icons/commerce';
+import * as ChartsIcons from './icons/charts';
 
 export { Icon } from './Icon';
 export type { IconProps, IconSize } from './Icon.types';
@@ -78,6 +79,7 @@ export const BearIcons = {
   ...SocialIcons,
   ...DeviceIcons,
   ...CommerceIcons,
+  ...ChartsIcons,
   Action: ActionIcons,
   Navigation: NavigationIcons,
   Content: ContentIcons,
@@ -91,6 +93,7 @@ export const BearIcons = {
   Social: SocialIcons,
   Device: DeviceIcons,
   Commerce: CommerceIcons,
+  Charts: ChartsIcons,
 };
 
 export default BearIcons;

@@ -10,10 +10,18 @@ Icons only:
 npm install @forgedevstack/bear-icons
 ```
 
-Bear UI (re-exports the same icons):
+Bear UI (optional dependency — installed by default):
 
 ```bash
 npm install @forgedevstack/bear
+```
+
+Skip icons when installing Bear (npm has no `--no-icons` flag):
+
+```bash
+npm install @forgedevstack/bear --omit=optional
+# yarn: yarn add @forgedevstack/bear --ignore-optional
+# pnpm: pnpm add @forgedevstack/bear --no-optional
 ```
 
 ## Usage

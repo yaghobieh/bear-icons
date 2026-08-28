@@ -17,6 +17,7 @@ const ICON_CATEGORIES = [
   'social',
   'device',
   'commerce',
+  'charts',
 ] as const;
 
 const categoryEntries = Object.fromEntries(

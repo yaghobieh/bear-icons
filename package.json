@@ -11,6 +11,71 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./action": {
+      "types": "./dist/action.d.ts",
+      "import": "./dist/action.js",
+      "require": "./dist/action.cjs"
+    },
+    "./navigation": {
+      "types": "./dist/navigation.d.ts",
+      "import": "./dist/navigation.js",
+      "require": "./dist/navigation.cjs"
+    },
+    "./content": {
+      "types": "./dist/content.d.ts",
+      "import": "./dist/content.js",
+      "require": "./dist/content.cjs"
+    },
+    "./communication": {
+      "types": "./dist/communication.d.ts",
+      "import": "./dist/communication.js",
+      "require": "./dist/communication.cjs"
+    },
+    "./status": {
+      "types": "./dist/status.d.ts",
+      "import": "./dist/status.js",
+      "require": "./dist/status.cjs"
+    },
+    "./media": {
+      "types": "./dist/media.d.ts",
+      "import": "./dist/media.js",
+      "require": "./dist/media.cjs"
+    },
+    "./editor": {
+      "types": "./dist/editor.d.ts",
+      "import": "./dist/editor.js",
+      "require": "./dist/editor.cjs"
+    },
+    "./misc": {
+      "types": "./dist/misc.d.ts",
+      "import": "./dist/misc.js",
+      "require": "./dist/misc.cjs"
+    },
+    "./bear": {
+      "types": "./dist/bear.d.ts",
+      "import": "./dist/bear.js",
+      "require": "./dist/bear.cjs"
+    },
+    "./file": {
+      "types": "./dist/file.d.ts",
+      "import": "./dist/file.js",
+      "require": "./dist/file.cjs"
+    },
+    "./social": {
+      "types": "./dist/social.d.ts",
+      "import": "./dist/social.js",
+      "require": "./dist/social.cjs"
+    },
+    "./device": {
+      "types": "./dist/device.d.ts",
+      "import": "./dist/device.js",
+      "require": "./dist/device.cjs"
+    },
+    "./commerce": {
+      "types": "./dist/commerce.d.ts",
+      "import": "./dist/commerce.js",
+      "require": "./dist/commerce.cjs"
     }
   },
   "publishConfig": {

@@ -1,6 +1,6 @@
 {
   "name": "@forgedevstack/bear-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SVG icon library for Bear UI and ForgeStack. 550+ React icons, no component library required.",
   "type": "module",
   "main": "./dist/index.cjs",

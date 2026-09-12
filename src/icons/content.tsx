@@ -139,6 +139,35 @@ export const BookOpenIcon: IconComponent = (props) => (
   <Icon {...props}><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" /></Icon>
 );
 
+export const StorybookIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <rect x="4" y="3" width="16" height="18" rx="2" />
+    <path d="M8 7h8" />
+    <path d="M8 11h8" />
+    <path d="M8 15h5" />
+    <circle cx="17" cy="16.5" r="2.5" />
+  </Icon>
+);
+
+export const SandboxIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z" />
+    <path d="M12 12l8-4.5" />
+    <path d="M12 12v9" />
+    <path d="M12 12L4 7.5" />
+    <path d="M9.5 14.5l1.5 1.5 3-3" />
+  </Icon>
+);
+
+export const ComponentsIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <rect x="3" y="3" width="8" height="8" rx="1.5" />
+    <rect x="13" y="3" width="8" height="8" rx="1.5" />
+    <rect x="3" y="13" width="8" height="8" rx="1.5" />
+    <rect x="13" y="13" width="8" height="8" rx="1.5" />
+  </Icon>
+);
+
 export const BookmarkIcon: IconComponent = (props) => (
   <Icon {...props}><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></Icon>
 );

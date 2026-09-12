@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2] - 2026-09-12
+
+### Added
+
+- `StorybookIcon`, `SandboxIcon`, and `ComponentsIcon` in the content set, also exported from the package root.
+
 ## [1.0.1] - 2026-08-28
 
 ### Added

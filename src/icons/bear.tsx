@@ -158,3 +158,54 @@ export const BifrostIcon: IconComponent = (props) => (
     <path d="M7 18c2.5-4 7.5-4 10 0" />
   </Icon>
 );
+
+export const BearIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <circle cx="5" cy="6" r="3" />
+    <circle cx="19" cy="6" r="3" />
+    <path d="M12 4C6.5 4 3 8 3 13.5c0 4.5 3.5 7.5 9 7.5s9-3 9-7.5C21 8 17.5 4 12 4z" />
+    <ellipse cx="12" cy="15" rx="4.5" ry="3" />
+    <path d="M11 14.2h2M12 14.2v1.5" />
+    <circle cx="8" cy="10.5" r="1" fill="currentColor" />
+    <circle cx="16" cy="10.5" r="1" fill="currentColor" />
+  </Icon>
+);
+
+export const LotsoIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <circle cx="4.5" cy="5.5" r="2.8" />
+    <circle cx="19.5" cy="5.5" r="2.8" />
+    <circle cx="4.5" cy="5.5" r="1.4" fill="currentColor" opacity="0.3" />
+    <circle cx="19.5" cy="5.5" r="1.4" fill="currentColor" opacity="0.3" />
+    <path d="M12 4c-5 0-8.5 3.5-8.5 9 0 4.8 3.8 8 8.5 8s8.5-3.2 8.5-8c0-5.5-3.5-9-8.5-9z" />
+    <path d="M6.5 8.5c1.2-.8 3-.5 3.5 0M17.5 8.5c-1.2-.8-3-.5-3.5 0" strokeWidth="1.8" strokeLinecap="round" />
+    <circle cx="8.5" cy="11" r="1.1" fill="currentColor" />
+    <circle cx="15.5" cy="11" r="1.1" fill="currentColor" />
+    <ellipse cx="12" cy="15.5" rx="4.2" ry="3.2" />
+    <path d="M10.8 14.5h2.4l-1.2 1.5z" fill="currentColor" />
+    <path d="M10 17c1 .8 3 .8 4 0" strokeWidth="1.2" strokeLinecap="round" />
+  </Icon>
+);
+
+export const BearFaceIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <circle cx="5" cy="5.5" r="3" />
+    <circle cx="19" cy="5.5" r="3" />
+    <path d="M12 4c-5.2 0-8.8 3.8-8.8 9.5 0 4.8 3.8 7.5 8.8 7.5s8.8-2.7 8.8-7.5C20.8 7.8 17.2 4 12 4z" />
+    <circle cx="8.5" cy="11" r="1.2" fill="currentColor" />
+    <circle cx="15.5" cy="11" r="1.2" fill="currentColor" />
+    <ellipse cx="12" cy="15.5" rx="4" ry="2.8" />
+    <path d="M11 14.8c.5-.3 1.5-.3 2 0l-1 1.2z" fill="currentColor" />
+    <path d="M10.5 17c.8.6 2.2.6 3 0" strokeWidth="1.2" strokeLinecap="round" />
+  </Icon>
+);
+
+export const PawIcon: IconComponent = (props) => (
+  <Icon {...props}>
+    <ellipse cx="12" cy="16" rx="5" ry="4" />
+    <ellipse cx="6" cy="10" rx="2" ry="2.5" />
+    <ellipse cx="10" cy="7" rx="2" ry="2.8" />
+    <ellipse cx="14" cy="7" rx="2" ry="2.8" />
+    <ellipse cx="18" cy="10" rx="2" ry="2.5" />
+  </Icon>
+);

@@ -67,6 +67,10 @@ export const SalmonIcon = BearCategoryIcons.SalmonIcon;
 export const CampfireIcon = BearCategoryIcons.CampfireIcon;
 export const PineTreeIcon = BearCategoryIcons.PineTreeIcon;
 export const MountainIcon = BearCategoryIcons.MountainIcon;
+export const BearIcon = BearCategoryIcons.BearIcon;
+export const LotsoIcon = BearCategoryIcons.LotsoIcon;
+export const BearFaceIcon = BearCategoryIcons.BearFaceIcon;
+export const PawIcon = BearCategoryIcons.PawIcon;
 
 export const BearIcons = {
   ...ActionIcons,

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.3] - 2026-09-22
+
+### Added
+
+- Mascot and bear branding icons: `BearIcon`, `LotsoIcon`, `BearFaceIcon`, and `PawIcon` in the bear category and package root exports.
+
 ## [1.0.2] - 2026-09-12
 
 ### Added
